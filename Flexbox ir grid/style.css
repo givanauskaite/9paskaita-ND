@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    height: 300px;
+    padding: 10px;
+}
+
+.flex-container main {
+    width: 50%;
+    background: #ff6247;
+    border-right: 15px solid white;
+    padding-top: 50px;
+}
+
+.flex-container aside {
+    width: 50%;
+    background: #ff6247;
+}
+
+.flex-container .aside-1 {
+    height: 50%;
+    background: #ff6247;
+    border-bottom: 15px solid white;
+    padding-top: 50px;
+}
+
+section {
+    display: flex;
+}
+
+.flex-container .aside-2 {
+    width: 50%;
+    height: 140px;
+    background: #ff6247;
+    border-right: 7.5px solid white;
+    padding-top: 50px;
+}
+
+.flex-container .aside-3 {
+    width: 50%;
+    height: 140px;
+    background: #ff6247;
+    border-left: 7.5px solid white;
+    padding-top: 50px;
+}
+
+
+
+
+
+
+.grid-container {
+    background: white;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 10px;
+}
+
+.grid-container main {
+    /* grid-row: span 2; */
+    background: #acd7e7;
+    border-right: 15px solid white;
+    padding-top: 50px;
+}
+
+.grid-container .aside-1 {
+    height: 50%;
+    background: #acd7e7;
+    border-bottom: 15px solid white;
+    padding-top: 50px;
+}
+
+article {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 140px;
+
+}
+
+.grid-container .aside-2 {
+    background: #acd7e7;
+    border-right: 15px solid white;
+    padding-top: 50px;
+}
+
+.grid-container .aside-3 {
+    background: #acd7e7;
+    padding-top: 50px;
+}
